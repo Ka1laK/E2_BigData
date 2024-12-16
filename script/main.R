@@ -176,3 +176,9 @@ ggpairs(df_imputado,
   scale_color_manual(values = c("Normal" = "blue", "Outlier" = "red")) +
   labs(title = "Pair Plot de Outliers Detectados (Datos Imputados)") +
   theme_minimal()
+
+
+
+# Exportar el dataset final a un archivo CSV
+write.csv(df_imputado, "df_final_imputado_outliers.csv", row.names = FALSE)
+
