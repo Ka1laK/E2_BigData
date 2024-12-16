@@ -59,7 +59,7 @@ df %>%
   labs(title = "Distribucion de las Variables Numericas", x = "Valor", y = "Frecuencia")
 
 # --------------------------- #
-# Aplicación de Isolation Forest
+# Aplicacion de Isolation Forest
 # --------------------------- #
 # Escalar los datos numericos
 X_escalado <- scale(df %>% select_if(is.numeric))
@@ -96,7 +96,7 @@ df_imputado <- kNN(df, variable = columnas_para_imputar)
 
 
 # --------------------------- #
-# Nuevo analisis exploratorio despues de la imputación
+# Nuevo analisis exploratorio despues de la imputacion
 # --------------------------- #
 # Repetir diagramas de cajas
 columnas_a_graficar <- colnames(df_imputado)[1:(ncol(df_imputado))] 
@@ -146,11 +146,11 @@ print("Estructura del dataset imputado:")
 str(df_imputado)       
 print("Resumen estadistico del dataset imputado:")
 summary(df_imputado)     
-print("Valores nulos por columna después de imputacion:")
+print("Valores nulos por columna despues de imputacion:")
 colSums(is.na(df_imputado))
 
 # ------------------------------------------------------------ #
-# Nueva aplicacion de Isolation Forest despues de imputación
+# Nueva aplicacion de Isolation Forest despues de imputacion
 # ------------------------------------------------------------ #
 # Escalar los datos nuevamente
 X_nueva_escalado <- scale(df_imputado %>% select_if(is.numeric))
@@ -164,7 +164,7 @@ nueva_prediccion <- modelo_iso_nuevo$predict(X_nueva_escalado)
 df_imputado$outlier <- ifelse(nueva_prediccion$anomaly_score > quantile(nueva_prediccion$anomaly_score, 0.8), "Outlier", "Normal")
 
 # --------------------------- #
-# Visualizacion final después de imputacion
+# Visualizacion final despues de imputacion
 # --------------------------- #
 # Pair Plot despues de la imputacion
 ggpairs(df_imputado, 
