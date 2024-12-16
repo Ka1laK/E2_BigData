@@ -1,5 +1,5 @@
 # --------------------------- #
-# Librerías utilizadas
+# Librerias utilizadas
 # --------------------------- #
 if (!require(solitude)) install.packages("solitude", dependencies = TRUE)
 if (!require(caret)) install.packages("caret")
@@ -10,12 +10,12 @@ if (!require(GGally)) install.packages("GGally")
 if (!require(VIM)) install.packages("VIM")
 
 library(solitude)  # Isolation Forest
-library(caret)     # Métricas de clasificación
-library(dplyr)     # Manipulación de datos
-library(gridExtra) # Organizar gráficos
-library(ggplot2)   # Visualización de gráficos
+library(caret)     # Metricas de clasificacion
+library(dplyr)     # Manipulacion de datos
+library(gridExtra) # Organizar graficos
+library(ggplot2)   # Visualizacion de graficos
 library(GGally)    # Pair plots
-library(VIM)       # KNN para imputación
+library(VIM)       # KNN para imputacion
 
 # --------------------------- #
 # Cargar y preparar los datos
