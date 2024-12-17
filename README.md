@@ -17,19 +17,6 @@ Identificar a las personas con mayor riesgo de desarrollar diabetes o que necesi
 
 El objetivo principal de este proyecto es aplicar el algoritmo **Isolation Forest** para detectar anomalías en un conjunto de datos de pacientes con diabetes. El análisis se centrará en identificar patrones inusuales en variables clínicas como la glucosa en sangre, la presión arterial, el índice de masa corporal y otros factores de riesgo, para señalar a los individuos que se desvían significativamente de la población general y que podrían beneficiarse de intervenciones específicas. 🧑‍⚕️👩‍⚕️
 
-## Impacto del Proyecto en la Sociedad 🌍
-
-Este proyecto tiene el potencial de generar un impacto positivo al:
-
-- **Mejorar la salud pública**: Contribuir a la prevención y el tratamiento de la diabetes, reduciendo la mortalidad prematura y las complicaciones asociadas, lo que mejora la calidad de vida de las personas con diabetes y alivia la carga económica para los sistemas de salud. 🏥💚
-- **Promover la equidad en salud**: Facilitar el acceso a servicios de salud de calidad para las personas con perfiles atípicos que requieren atención adicional, contribuyendo a la reducción de desigualdades en salud. 🌐
-- **Aumentar la eficiencia del sistema de salud**: Optimizar la asignación de recursos y la toma de decisiones en la atención de la diabetes, permitiendo a los profesionales de la salud focalizar sus esfuerzos en los pacientes que más lo necesitan. ⚙️📊
-
-## Beneficios del Proyecto 💡
-
-- **Beneficio social**: Mejora de la salud y la calidad de vida de las personas con diabetes, reducción de la carga económica que la diabetes representa para los sistemas de salud y las familias, y mayor conocimiento sobre los factores de riesgo y las características de la enfermedad. 🌱
-- **Beneficio comercial**: Desarrollo de herramientas de análisis de datos para la industria de la salud, permitiendo a aseguradoras y proveedores de atención médica optimizar sus servicios, identificar pacientes de alto riesgo, prevenir complicaciones y mejorar la atención al paciente, lo que puede resultar en una reducción de costos y mayor eficiencia. 📉📈
-
 ## Requisitos 🔧
 
 Antes de ejecutar los scripts, asegúrate de tener instaladas las siguientes librerías en R:
